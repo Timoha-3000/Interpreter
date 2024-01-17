@@ -1,0 +1,22 @@
+print "Enter a"
+scan aa
+if aa == 3 or aa == 5 
+{
+	print aa , " if with or on work "
+}
+else
+{
+	print aa , " else from if on work"
+}
+for i = 1 to 10 
+{
+	half_i = i / 2
+	if half_i * 2 == i
+	{
+		print i , " hard if"
+	}
+	else
+	{
+		print i , " else from if on work"
+	}
+}
