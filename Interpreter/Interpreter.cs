@@ -386,7 +386,7 @@ namespace Interpreter
 
             if (id + 1 < code.Count && code[id + 1] == "+")
             {
-                id += 1; // scip +
+                id += 1;
 
                 id++;
                 rtn = (int.Parse(rtn) + int.Parse(Expression(code, ref id))).ToString();
@@ -394,7 +394,7 @@ namespace Interpreter
 
             if (id + 1 < code.Count && code[id + 1] == "-")
             {
-                id += 1; // scip -
+                id += 1;
 
                 id++;
                 rtn = (int.Parse(rtn) - int.Parse(Expression(code, ref id))).ToString();

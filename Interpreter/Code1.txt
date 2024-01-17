@@ -1,15 +1,17 @@
 print "Enter num, 3 or 5"
 scan aa
+
+for i =  to aa 
+{
+	aa = aa * i
+	print aa
+}
+
 if aa == 3 or aa == 5 
 {
-	print aa , " if or working correct"
+	pint aa , " if or working correct"
 }
 else
 {
 	print aa , " else print noup"
-}
-for i = 1 to aa 
-{
-	aa = aa * i
-	print aa
 }

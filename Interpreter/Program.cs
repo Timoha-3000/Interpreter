@@ -11,7 +11,7 @@ namespace Interpreter
     {
         static void Main(string[] args)
         {
-            var text = File.ReadAllText("Code.txt");
+            var text = File.ReadAllText("Code1.txt");
 
             text = text.Replace("\n", " ");
             text = text.Replace("\r", " ");
